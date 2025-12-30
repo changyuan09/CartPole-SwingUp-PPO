@@ -24,6 +24,8 @@ Key features:
 ```
 
 ---
+## Demo
+[▶ Watch the demo video](video/video.mov)
 
 ## Scripts
 
@@ -127,17 +129,8 @@ python3 neuron_use.py
 
 ## Notes / common issues
 
-### GitHub push failed because of `.venv/`
-Don’t commit the virtual environment. Add this to `.gitignore`:
-
-```gitignore
-.venv/
-```
-
-If you already committed it, remove it from Git history before pushing.
-
 ### Swing-up sometimes fails
-Expected: swing-up can be sensitive to initialization, randomness, and policy quality. Re-run inference a few times.
+Expected: swing-up can be sensitive to initialization, randomness, and policy quality. Just watch it running by itself a few times and it will swingup for sure.
 
 ### Parallel environments
 `main.py` assumes **8 parallel envs**. Fewer CPU cores will generally run slower.

@@ -25,6 +25,7 @@ Key features:
 
 ---
 ## Demo
+You can download the swingup video (which is too big to display here)
 [▶ Watch the demo video](video/video.mov)
 
 ## Scripts
